@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
-// import Header from './Header';
+import Header from './Header';
+import Footer from './Footer';
 
-class PagoEfectivo extends Component {
-    render(){
-        return(
-          <header>hola otra vez</header> 
-        )
-    }
-
-}
+const  PagoEfectivo = () => (
+  <div>
+    <Header title="hola"/>
+    <Footer/>
+  </div>
+);
 
 export default PagoEfectivo;

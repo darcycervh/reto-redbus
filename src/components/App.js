@@ -4,11 +4,10 @@ import BancaInternet from './Banca_internet'
 import PagoEfectivo from './Pago_efectivo'
 
 const App = () => (
-  <body>
+  <div>
     <BancaInternet/>
     <PagoEfectivo/>
-  </body>
-)
-
+  </div>
+);
 
 export default App;

@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import Header from './Header';
+import Footer from './Footer';
 
-class BancaInternet extends Component {
-    render(){
-        return(
-            <Header/>
-        )
-    }
+const BancaInternet = () => (
+  <div>
+    <Header title="hola mundo"/>
+    <Footer/>
+  </div>
+);
 
-}
 export default BancaInternet;
