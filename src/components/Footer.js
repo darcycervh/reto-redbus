@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types'
 
-const Footer = () => (
+const Footer = ({enlaceTitle}) => (
   <footer>
     <div className="container">
       <div className="row">
         <div className="col">
-          <a href=""><span></span>Ir a banca por internet</a>
+          <a href=""><span></span>{enlaceTitle}</a>
         </div>
       </div>
       <div className="row">
@@ -17,5 +18,9 @@ const Footer = () => (
   </footer>
   
 );
+
+Footer.propTypes = {
+  enlaceTitles:PropTypes.string.isRequired,
+}
 
 export default Footer;

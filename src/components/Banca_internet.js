@@ -5,7 +5,7 @@ import Footer from './Footer';
 const BancaInternet = () => (
   <div>
     <Header title="hola mundo"/>
-    <Footer/>
+    <Footer enlaceTitle="Ir a banca por internet"/>
   </div>
 );
 
