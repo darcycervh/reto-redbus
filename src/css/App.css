@@ -1,11 +1,20 @@
-
-
+.carrusel {
+  outline: 1px solid black;
+}
+.bcp {
+  width: 100%;
+  height: 100px;
+}
+.item {
+  outline: 1px solid black;
+  margin: 2%;
+  margin-right: 4.3%;
+}
 img {
   width: 100%;
   height: 70px;
 }
 li {
-  
   margin: 1%;
   outline:1px solid rgb(209, 191, 31);
 }

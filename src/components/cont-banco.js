@@ -5,7 +5,7 @@ import BankList from './ListItem'
 const constBan = ({lista})=> (
     <div>
         <div>Seleciona donde quieres pagar</div>
-     <ul className="cont-ul">
+     <ul className="cont-ul col-sm-12 col-md-12">
     {lista.map(listas => 
        <BankList 
         key={listas.name} 
