@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../css/App.css';
-import BancaInternet from './Banca_internet'
-import PagoEfectivo from './Pago_efectivo'
+import BancaInternet from './Banca_internet';
+import PagoEfectivo from './Pago_efectivo';
 
 const App = () => (
   <div>

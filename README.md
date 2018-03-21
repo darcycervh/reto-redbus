@@ -1,6 +1,6 @@
 # Reto: redBus
 
-![redBus Logo](assets/images/redbus_logo.jpg)
+![redBus Logo](src/assets/images/redbus_logo.jpg)
 
 ## Desarrollado para:
 

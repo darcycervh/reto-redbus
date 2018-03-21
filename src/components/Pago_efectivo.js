@@ -5,7 +5,7 @@ import Footer from './Footer';
 const  PagoEfectivo = () => (
   <div>
     <Header title="hola"/>
-    <Footer enlaceTitle="Encuentra tu punto de pago"/>
+    <Footer enlace="Encuentra tu punto de pago"/>
   </div>
 );
 
