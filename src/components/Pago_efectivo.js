@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 class PagoEfectivo extends Component {
     render(){
         return(
-          <header>hola otra vez</header> 
+          <header></header> 
         )
     }
 

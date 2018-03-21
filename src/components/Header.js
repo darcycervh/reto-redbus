@@ -4,7 +4,8 @@ import React from 'react'
 const Header = () => (
     <div>
         <header>
-            Banca por internet
+            <h2>Banca por internet</h2>
+            <hr/>  
         </header>    
     </div>    
 )
