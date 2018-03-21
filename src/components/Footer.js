@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
-import logo from '../assets/images/pago_efectivo.png';
+import logo from '../assets/images/logo-pagoefectivo.svg';
+import iconPrint from '../assets/images/icon-print.svg';
+import iconArrow from '../assets/images/icon-arrow.svg';
+
 import PropTypes from 'prop-types';
 import '../css/Footer.css';
 
@@ -8,18 +11,17 @@ const Footer = ({enlace}) => (
     <div className="container">
       <div className="row">
         <div className="col-xs-12 text-center enlace">
-          <a href=""><i className=""></i>{enlace}</a>
+          <a href="https://ubicanos.pagoefectivo.pe/#/?tienda=[idServicio]&moneda=1&monto=100.00&ubicame=true&_k=mqw01x"><img src={iconArrow}/>{enlace}</a>
         </div>
       </div>
-      <div className="row">
-        <div className="col-xs-12 text-center download">Instrucciones vía<i className=""></i></div>
-      <div className="row">
-        <div className="col-xs-6 mail">Ayuda:
+      <div className="row  referencies">
+        <div className="text-center download">Instrucciones vía<img src={iconPrint}/>
+        </div>
+        <div className="mail">Ayuda:
           <a href="mailto:contacto@redbus.pe">contacto@redbus.pe</a>
         </div>
-        <div className="col-xs-6 image">Pago vía
+        <div className="pull-right image">Pago vía
           <img className="img-responsive" src={logo}/>
-        </div>
         </div>
       </div>
     </div>
