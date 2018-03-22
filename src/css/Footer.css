@@ -48,8 +48,15 @@
   width: 70px;
   height: 30px;
 }
+footer{
+  /* outline: 1px solid red; */
+  
+}
 
 @media (min-width:790px) { 
+  .referencies{
+    margin: 30px 0;
+  }
   .download{
     margin: 0;
     float: left;

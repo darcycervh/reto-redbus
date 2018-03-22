@@ -1,0 +1,65 @@
+.enlaces {
+    border-bottom: 1px solid rgb(250, 247, 68);
+}
+
+.enlaces a{
+    padding: 20px 10px 5px 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border-radius:5px;
+}
+
+.enlaces a:hover{
+    border-top: 1px solid rgb(250, 247, 68);
+    border-left: 1px solid rgb(250, 247, 68);
+    border-right: 1px solid rgb(250, 247, 68);
+}
+
+.enlaces {
+    margin-top: 30px;
+}
+
+.monto,.codigo,.time{
+    padding: 10px;
+    height: 100px;
+}
+
+.monto{
+    color:black;
+    background-color: rgb(228, 224, 224);
+    font-size: 20px;
+
+}
+
+.codigo{
+    background:rgb(250, 217, 68);
+    color : white;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+
+}
+
+.codigo p{
+    font-size: 20px;
+}
+
+.time{
+    line-height: 100px;
+    background: rgb(235, 203, 155);
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.time img{
+    display:inline-block;
+    width:30px ;
+    height:30px ;
+}
+
+.assets-pago{
+    border-radius: 5px;
+    padding: 50px 50px 0 50px;
+}
