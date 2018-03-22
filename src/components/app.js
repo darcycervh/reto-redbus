@@ -6,6 +6,7 @@ import Header from './Header';
 
 const App = () => (
   <div>
+    
     <BancaInternet/>
     <PagoEfectivo/>
   </div>
