@@ -18,7 +18,8 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d public"
+    "deploy": "gh-pages -d public",
+    "homepage" : "https://darcycervh.github.io/reto-redbus"
   },
   "devDependencies": {
     "gh-pages": "^1.1.0"
